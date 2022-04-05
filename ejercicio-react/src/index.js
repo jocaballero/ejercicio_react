@@ -1,7 +1,9 @@
 import { createRoot } from "react-dom/client";
 import MuseumList from "./components/museumList";
+import NavBar from "./components/navbar";
 
-const container = document.getElementById("root");
-const root = createRoot(container);
+const root = createRoot(document.getElementById("root"));
 
-root.render(<MuseumList />);
+root.render([<NavBar />, <MuseumList />]);
+
+export default root;

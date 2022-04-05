@@ -1,13 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Museum from "./museum";
-
-const museumList = {
-  display: "flex",
-  flexWrap: "wrap",
-  justifyContent: "center",
-  margin: "0px 120px 0px 120px",
-};
+import { museumList } from "./styles";
 
 function MuseumList() {
   const [museums, setMuseums] = useState([]);
