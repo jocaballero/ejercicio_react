@@ -5,7 +5,10 @@ import { cardStyle, imageStyle, nameStyle, cityStyle } from "./styles";
 
 function Museum(props) {
   function showDetails() {
-    root.render([<NavBar />, <ArtworkList artwork={props.gallery} />]);
+    root.render([
+      <NavBar museum={props.name.toUpperCase()} />,
+      <ArtworkList artwork={props.gallery} />,
+    ]);
   }
 
   return (

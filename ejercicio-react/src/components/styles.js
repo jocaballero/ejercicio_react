@@ -60,3 +60,45 @@ export const navbarStyle = {
   width: "100%",
   backgroundColor: "#C4C4C4",
 };
+
+export const navbarUl = {
+  listStyleType: "none",
+  margin: "0px 25px 0px 0px",
+};
+
+export const navbarLi = {
+  display: "inline",
+  float: "right",
+  margin: "35px 55px 0px 55px",
+  fontFamily: "Roboto",
+  fontSize: "26px",
+};
+
+export const navbarTitle = {
+  float: "left",
+  fontFamily: "Sevillana",
+  fontSize: "48px",
+  margin: "15px 0px 0px 30px",
+};
+
+export const navigationTitle = {
+  fontFamily: "Roboto",
+  fontSize: "20px",
+  margin: "20px 0px 20px 75px",
+};
+
+export const contentTitle = {
+  height: "70px",
+  margin: "0px 65px 0px 65px",
+  backgroundColor: "#C4C4C4",
+  textAlign: "Center",
+  fontFamily: "Roboto",
+  fontWeight: "800",
+  fontSize: "32px",
+  paddingTop: "10px",
+};
+
+export const hrStyle = {
+  margin: "22px 65px 0px 65px",
+  opacity: "100",
+};
